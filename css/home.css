@@ -1,0 +1,35 @@
+.fa {
+  width: 50%;
+  display: block;
+  margin: 2% auto 10%;
+  transition: transform .2s;
+}
+
+.fa:hover {
+  transform: scale(1.5);
+}
+
+.sec-header {
+  font-family: "Merriweather", sans-serif;
+  font-weight: 600;
+}
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/banners/banner3.png");
+
+  /* Set a specific height */
+  height: 60%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}

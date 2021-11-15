@@ -1,0 +1,31 @@
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/banners/banner5.png");
+
+  /* Set a specific height */
+  height: 60%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.contact-info {
+  padding: 2%;
+}
+
+.contact-info h2, p {
+  text-align: left;
+}
+
+.contact-info h2 {
+  font-weight: bold;
+}
