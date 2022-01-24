@@ -28,3 +28,25 @@ body, html {
   background-size: cover;
   position: relative;
 }
+
+.highlights {
+  text-align: center;
+  display: block;
+  margin: 5px auto;
+  height: 320px;
+}
+
+.highlights:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.thrust-area {
+  padding: 30px;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #000;
+}
+
+.icons {
+  width: 35%;
+}
