@@ -2,6 +2,15 @@ body, html {
     height: 100%;
 }
 
+.position {
+  padding: 0 0 5%;
+}
+
+.alumni-info {
+  font-size: 1rem;
+  text-align: left;
+}
+
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -38,6 +47,7 @@ body, html {
   transition: transform 0.8s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
