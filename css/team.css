@@ -78,11 +78,11 @@ body, html {
   transform: rotateY(180deg);
 }
 
-.prof-link {
+.member-link {
   text-decoration: none;
   color: #000;
 }
 
-.prof-link:hover {
-  color: grey;
+.member-link:hover {
+  color: red;
 }
