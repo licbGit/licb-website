@@ -40,6 +40,20 @@ body, html {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
+.featured {
+  border: 2px solid black;
+  border-radius: 8px;
+  text-align: center;
+  display: block;
+  margin: 2% auto;
+  height: 320px;
+  width: 540px;
+}
+
+.featured:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
 .thrust-area {
   padding: 30px;
   font-weight: 500;
