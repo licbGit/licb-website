@@ -3,8 +3,9 @@ html, body {
 }
 
 /* navigation bar */
-#navbar{
+.navbar{
   padding: 9px 2%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
 }
 
 .nav-item {
@@ -19,7 +20,7 @@ html, body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   font-size: 3.5rem;
-  padding: 10% 0;
+  padding: 14% 0;
   color: #fff;
 }
 
