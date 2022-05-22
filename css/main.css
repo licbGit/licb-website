@@ -28,7 +28,7 @@ h2, .sec-header {
   font-family: "Merriweather", sans-serif;
   text-align: center;
   font-weight: 600;
-  font-size: 2.9rem;
+  font-size: 2.5rem;
   padding: 4% 0;
 }
 
@@ -52,6 +52,7 @@ h3, .sec-sub-header {
   text-align: center;
   font-family: "Merriweather", sans-serif;
   font-size: 2.2rem;
+  font-weight: 600;
   color: #000;
   display: block;
   padding: 30px;

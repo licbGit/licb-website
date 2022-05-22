@@ -82,3 +82,16 @@
 .member-link:hover {
   color: red;
 }
+
+.carousel-cell {
+  width: 25%; /* half-width */
+  height: 225px;
+  padding: 2%;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+}
+
+.carousel-cell.is-selected {
+  background: #ffcb31;
+}

@@ -8,10 +8,11 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/team.css">
   <link rel="shortcut icon" href="images/logos/licb_favicon.ico">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&family=Montserrat:ital,wght@1,800&family=Open+Sans&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
@@ -133,7 +134,7 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src="images/team/kdd2.jpeg" alt="member" style="width:300px;height:300px;">
+              <img src="images/team/kdd4.jpg" alt="member" style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
               <h1 style="font-weight: 600;">Krishanu Dey Das</h1>
@@ -215,168 +216,140 @@
       </div>
     </div>
 
-    <div class="row" style="padding:4% 0 0;">
+    <div class="row">
       <div class="col-lg-12">
-        <h2 class="sec-header">Alumnis of LICB</h2>
-      </div>
-    </div>
-
-    <div class="row position">
-      <div class="col-lg-6">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="images/alumni/svn.jpg" alt="member" style="width:300px;height:300px;">
-            </div>
-            <div class="flip-card-back">
-              <h1 style="font-weight: 600;">Dr. Sreeja V. Nair</h1>
-              <p>Graduated 2020</p>
-              <p>Post-doc at <a href="https://pfeffer.stanford.edu/" target="_blank" class="member-link">Pfeffer lab</a>, Stanford University</p>
-              <a href="https://twitter.com/Sreeja_VNair?t=JsXMQFLKLRXTRuHbhMg_CA&s=08" target="_blank"><i class="fab fa-twitter"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="images/alumni/agv.jpg" alt="member" style="width:300px;height:300px;">
-            </div>
-            <div class="flip-card-back">
-              <h1 style="font-weight: 600;">Dr. Anoopkumar</h1>
-              <p>RA, 2014-20</p>
-              <p>Scientist Grade II, <a href="https://kshema.nitte.edu.in/" target="_blank" class="member-link"></a> KS Hegde Medical Academy, Mangalore, India</p>
-            </div>
-          </div>
-        </div>
+        <h2 class="sec-header">Alumnis</h2>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-lg-4">
-        <div class="card text-dark bg-light mb-3" style="max-width: 18rem; display: block; margin: 2% auto;">
-          <div class="card-header sec-sub-header">2020-21</div>
-          <div class="card-body">
-            <h5 class="card-title"><em>Anusha D. Bhatt</em> <a href="https://twitter.com/AnushaDBhatt1?t=8jOu1XFtqxeW2RcOPCrdgQ&s=08" target="_blank"><i class="fab fa-twitter"></i></a></h5>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current position: Graduate student, <a href="https://graduate.dartmouth.edu/mcb/" target="_blank" class="member-link">Molecular and Cellular Biology, Dartmouth College</a>, Hanover, USA</p>
-            <h5 class="card-title"><em>Rithwik P. Nambiar</em> <a href="https://twitter.com/RpNandu1998?t=7udHBURhWECEWiLayKBYiw&s=08" target="_blank"><i class="fab fa-twitter"></i></a></h5>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-          </div>
+      <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "freeScroll": true }'>
+        <div class="carousel-cell" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/alumni/svn.jpg); background-size: cover;">
+          <p class="card-title text-white">Dr. Sreeja V. Nair <a href="https://twitter.com/Sreeja_VNair?t=JsXMQFLKLRXTRuHbhMg_CA&s=08" target="_blank"><i class="fab fa-twitter"></i></a></p>
+          <p class="alumni-info text-white">Graduated 2020</p>
+          <p class="alumni-info text-white">Post-doc at <a href="https://pfeffer.stanford.edu/" target="_blank" class="member-link">Pfeffer lab</a>, Stanford University</p>
         </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card text-dark bg-light mb-3" style="max-width: 18rem; display: block; margin: 2% auto;">
-          <div class="card-header sec-sub-header">2019-20</div>
-          <div class="card-body">
-            <h5 class="card-title"><em>Sreerag S. Reghu</em></h5>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Business</p>
-            <h5 class="card-title"><em>Sneha Santhosh</em></h5>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current position: Graduate student, <a href="https://www.kuleuven.be/kuleuven/" target="_blank" class="member-link">KU Leuven</a>, Belgium</p>
-            <h5 class="card-title"><em>Dheeraj KP</em></h5>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current position: Graduate student, <a href="http://phycell.univ-lille.fr/about-us" target="_blank" class="member-link">University of Lille</a>, Villeneuve d'Acq, France</p>
-            <p class="card-title"><em>Avinash AK</em></p>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-          </div>
+        <div class="carousel-cell" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/alumni/agv.jpg); background-size: cover;">
+          <p class="card-title text-white">Dr. Anoopkumar</p>
+          <p class="alumni-info text-white">RA 2014-20</p>
+          <p class="alumni-info text-white">Scientist Grade II, <a href="https://kshema.nitte.edu.in/" target="_blank" class="member-link"></a> KS Hegde Medical Academy, Mangalore, India</p>
         </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card text-dark bg-light mb-3" style="max-width: 18rem; display: block; margin: 2% auto;">
-          <div class="card-header sec-sub-header">2018-19</div>
-          <div class="card-body">
-            <h5 class="card-title"><em>Arun S</em> <a href="https://twitter.com/arunsathyan97?t=8pzX5tnDjFWS9KwhmJ4YyQ&s=08" target="_blank"><i class="fab fa-twitter"></i></a></h5>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current position: Graduate Student, <a href="https://www.uni-goettingen.de/en/1.html" target="_blank" class="member-link">Georg August Universität Göttingen</a>, Germany</p>
-            <h5 class="card-title"><em>Hari Shankar</em></h5>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current Position: Graduate Student, <a href="https://www.utsouthwestern.edu/" target="_blank" class="member-link">University of Texas Southwestern Medical Center</a>, USA</p>
-          </div>
+        <div class="carousel-cell">
+          <p class="card-title">Anusha D. Bhatt <a href="https://twitter.com/AnushaDBhatt1?t=8jOu1XFtqxeW2RcOPCrdgQ&s=08" target="_blank"><i class="fab fa-twitter"></i></a></p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current position: Graduate student, <a href="https://graduate.dartmouth.edu/mcb/" target="_blank" class="member-link">Molecular and Cellular Biology, Dartmouth College</a>, Hanover, USA</p>
         </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card text-dark bg-light mb-3" style="max-width: 18rem; display: block; margin: 2% auto;">
-          <div class="card-header sec-sub-header">2017-18</div>
-          <div class="card-body">
-            <h5 class="card-title"><em>Harsha M</em></h5>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current Position: Graduate Student, <a href="https://www.jh-inst.cas.cz/about-the-institute" target="_blank" class="member-link">J. Heyrovsky Institute of Physical Chemistry</a>, Czech Republic</p>
-            <h5 class="card-title"><em>Sruthi V R</em></h5>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current Position: Graduate Student, <a href="https://en.unistra.fr/" target="_blank" class="member-link">University of Strasbourg</a>, France</p>
-            <h5 class="card-title"><em>Nayan Suryawanshi</em> <a href="https://twitter.com/arunsathyan97?t=8pzX5tnDjFWS9KwhmJ4YyQ&s=08" target="_blank"><i class="fab fa-twitter"></i></a></h5>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current Position: Graduate Student, <a href="https://www.riken.jp/en/" target="_blank" class="member-link">RIKEN</a>, Japan</p>
-            <p class="card-title"><em>Aleena Thomas</em></p>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current Position: Graduate Student, <a href="https://www.univ-amu.fr/en" target="_blank" class="member-link">Aix-Marseille Universite</a>, France</p>
-            <p class="card-title"><em>Kavya S Pillai <a href="https://twitter.com/KavyaSmitha?t=jMpuR6N6lQLAsgW7yTHRmg&s=08" target="_blank"><i class="fab fa-twitter"></i></a></em></p>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current Position: Graduate Student, <a href="https://www.uchicago.edu/" target="_blank" class="member-link">University of Chicago</a>, USA</p>
-            <p class="card-title">Soumya Sagar Dey</p>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current Position: Graduate Student at Northern Illinois University (Department of Chemistry and Bio-chemistry)</p>
-          </div>
+        <div class="carousel-cell">
+          <p class="card-title">Rithwik P. Nambiar <a href="https://twitter.com/RpNandu1998?t=7udHBURhWECEWiLayKBYiw&s=08" target="_blank"><i class="fab fa-twitter"></i></a></p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
         </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card text-dark bg-light mb-3" style="max-width: 18rem; display: block; margin: 2% auto;">
-          <div class="card-header sec-sub-header">2016-17</div>
-          <div class="card-body">
-            <h5 class="card-title"><em>Divya Ram</em></h5>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current Position: Graduate Student, Ben Gurion University of the Negev, Israel</p>
-            <h5 class="card-title"><em>Michelle Noble</em></h5>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current Position: Graduate Student, EMBL, Heidelberg</p>
-            <h5 class="card-title"><em>Kavya Raveendran</em></h5>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current Position: Graduate Student, Medical Theoretical Centre, faculty of Medicine Carl Gustav Carus, TU dresden</p>
-            <p class="card-title"><em>Divya Sree Marripati</em></p>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-          </div>
+        <div class="carousel-cell">
+          <p class="card-title">Sreerag S. Reghu</p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Business</p>
         </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card text-dark bg-light mb-3" style="max-width: 18rem; display: block; margin: 2% auto;">
-          <div class="card-header sec-sub-header">2015-16</div>
-          <div class="card-body">
-            <h5 class="card-title"><em>Jithu A</em> <a href="https://twitter.com/jithuanirudhan?t=Hj-OGCBMt8gLuMmfEFz6eg&s=08" target="_blank"><i class="fab fa-twitter"></i></a></h5>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current Position: Graduate Student, University of Brussels, Belgium</p>
-            <h5 class="card-title"><em>Rahul Upadhyay</em></h5>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current Position: Graduate Student, EMBL, Heidelberg</p>
-            <h5 class="card-title"><em>​Aswini Sudevan</em></h5>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current Position: Graduate Student, IGDR, University of Rennes 1, France</p>
-            <p class="card-title"><em>Vishnuraj M</em></p>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current Position: Senior Executive, Analytical Development lab, Cipla, Bangalore</p>
-          </div>
+        <div class="carousel-cell">
+          <p class="card-title">Sneha Santhosh</p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current position: Graduate student, <a href="https://www.kuleuven.be/kuleuven/" target="_blank" class="member-link">KU Leuven</a>, Belgium</p>
         </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card text-dark bg-light mb-3" style="max-width: 18rem; display: block; margin: 2% auto;">
-          <div class="card-header sec-sub-header">2014-15</div>
-          <div class="card-body">
-            <h5 class="card-title"><em>Anu Thomas</em></h5>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current Position: Graduate Student, University of Texas Southwestern Medical Center, Dallas, USA.</p>
-          </div>
+        <div class="carousel-cell">
+          <p class="card-title">Dheeraj KP</p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current position: Graduate student, <a href="http://phycell.univ-lille.fr/about-us" target="_blank" class="member-link">University of Lille</a>, Villeneuve d'Acq, France</p>
         </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card text-dark bg-light mb-3" style="max-width: 18rem; display: block; margin: 2% auto;">
-          <div class="card-header sec-sub-header">2013-14</div>
-          <div class="card-body">
-            <h5 class="card-title"><em>Yamijala Santosh Bhargav</em></h5>
-            <p class="alumni-info">Undergraduate, IISER TVM</p>
-            <p class="alumni-info">Current Position: Relationship Manager, Federal Bank, Hyderabad, India</p>
-          </div>
+        <div class="carousel-cell">
+          <p class="card-title">Avinash AK</p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+        </div>
+        <div class="carousel-cell">
+          <p class="card-title">Arun S</p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current position: Graduate Student, <a href="https://www.uni-goettingen.de/en/1.html" target="_blank" class="member-link">Georg August Universität Göttingen</a>, Germany</p>
+        </div>
+        <div class="carousel-cell">
+          <p class="card-title">Hari Shankar</p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current Position: Graduate Student, <a href="https://www.utsouthwestern.edu/" target="_blank" class="member-link">University of Texas Southwestern Medical Center</a>, USA</p>
+        </div>
+        <div class="carousel-cell">
+          <p class="card-title">Harsha M</p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current Position: Graduate Student, <a href="https://www.jh-inst.cas.cz/about-the-institute" target="_blank" class="member-link">J. Heyrovsky Institute of Physical Chemistry</a>, Czech Republic</p>
+        </div>
+        <div class="carousel-cell">
+          <p class="card-title">Sruthi V R</p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current Position: Graduate Student, <a href="https://en.unistra.fr/" target="_blank" class="member-link">University of Strasbourg</a>, France</p>
+        </div>
+        <div class="carousel-cell">
+          <p class="card-title">Nayan Suryawanshi <a href="https://twitter.com/arunsathyan97?t=8pzX5tnDjFWS9KwhmJ4YyQ&s=08" target="_blank"><i class="fab fa-twitter"></i></a></p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current Position: Graduate Student, <a href="https://www.riken.jp/en/" target="_blank" class="member-link">RIKEN</a>, Japan</p>
+        </div>
+        <div class="carousel-cell">
+          <p class="card-title">Aleena Thomas</p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current Position: Graduate Student, <a href="https://www.univ-amu.fr/en" target="_blank" class="member-link">Aix-Marseille Universite</a>, France</p>
+        </div>
+        <div class="carousel-cell">
+          <p class="card-title"><em>Kavya S Pillai <a href="https://twitter.com/KavyaSmitha?t=jMpuR6N6lQLAsgW7yTHRmg&s=08" target="_blank"><i class="fab fa-twitter"></i></a></em></p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current Position: Graduate Student, <a href="https://www.uchicago.edu/" target="_blank" class="member-link">University of Chicago</a>, USA</p>
+        </div>
+        <div class="carousel-cell">
+          <p class="card-title">Soumya Sagar Dey</p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current Position: Graduate Student at Northern Illinois University (Department of Chemistry and Bio-chemistry)</p>
+        </div>
+        <div class="carousel-cell">
+          <p class="card-title">Divya Ram</p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current Position: Graduate Student, Ben Gurion University of the Negev, Israel</p>
+        </div>
+        <div class="carousel-cell">
+          <p class="card-title">Michelle Noble</p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current Position: Graduate Student, EMBL, Heidelberg</p>
+        </div>
+        <div class="carousel-cell">
+          <h5 class="card-title"><em>Kavya Raveendran</em></h5>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current Position: Graduate Student, Medical Theoretical Centre, faculty of Medicine Carl Gustav Carus, TU dresden</p>
+        </div>
+        <div class="carousel-cell">
+          <p class="card-title"><em>Divya Sree Marripati</em></p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+        </div>
+        <div class="carousel-cell">
+          <p class="card-title">Jithu A <a href="https://twitter.com/jithuanirudhan?t=Hj-OGCBMt8gLuMmfEFz6eg&s=08" target="_blank"><i class="fab fa-twitter"></i></a></p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current Position: Graduate Student, University of Brussels, Belgium</p>
+        </div>
+        <div class="carousel-cell">
+          <p class="card-title">Rahul Upadhyay</p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current Position: Graduate Student, EMBL, Heidelberg</p>
+        </div>
+        <div class="carousel-cell">
+          <p class="card-title">​Aswini Sudevan</p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current Position: Graduate Student, IGDR, University of Rennes 1, France</p>
+        </div>
+        <div class="carousel-cell">
+          <p class="card-title"><em>Vishnuraj M</em></p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current Position: Senior Executive, Analytical Development lab, Cipla, Bangalore</p>
+        </div>
+        <div class="carousel-cell">
+          <p class="card-title">Anu Thomas</p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current Position: Graduate Student, University of Texas Southwestern Medical Center, Dallas, USA.</p>
+        </div>
+        <div class="carousel-cell">
+          <p class="card-title">Yamijala Santosh Bhargav</p>
+          <p class="alumni-info">Undergraduate, IISER TVM</p>
+          <p class="alumni-info">Current Position: Relationship Manager, Federal Bank, Hyderabad, India</p>
         </div>
       </div>
     </div>
@@ -405,6 +378,9 @@
       </div>
     </div>
   </section>
+
+  <!-- Flickity carousel -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 
 </html>

@@ -1,8 +1,13 @@
+p {
+  font-size: 1.4rem;
+  padding: 2%;
+}
+
 .figures {
-  width: 60%;
+  width: 100%;
   display: block;
   margin: 4% auto;
-  border: 2px solid #000;
+
 }
 
 .sec-header {
