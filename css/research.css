@@ -4,10 +4,9 @@ p {
 }
 
 .figures {
-  width: 100%;
+  width: 35vw;
   display: block;
   margin: 4% auto;
-
 }
 
 .sec-header {

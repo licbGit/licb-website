@@ -26,18 +26,19 @@
 }
 
 .highlights {
+  box-shadow: 0 4px 8px 0 rgba(0,0.5,0,0.5);
   text-align: center;
   display: block;
   margin: 5px auto;
-  height: 320px;
+  height: 24vw;
 }
 
 .highlights:hover {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0,1,0,1);
 }
 
 .featured {
-  border: 2px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0,0.5,0,0.5);
   border-radius: 8px;
   display: block;
   margin: 3% auto;
@@ -46,7 +47,7 @@
 }
 
 .featured:hover {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0,1,0,1);
 }
 
 .thrust-area {
@@ -57,5 +58,6 @@
 }
 
 .icons {
+
   width: 35%;
 }

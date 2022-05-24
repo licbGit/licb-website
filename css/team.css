@@ -28,8 +28,8 @@
   display: block;
   margin: 4% auto;
   background-color: transparent;
-  width: 300px;
-  height: 300px;
+  width: 25vw;
+  height: 25vw;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -85,7 +85,7 @@
 
 .carousel-cell {
   width: 25%; /* half-width */
-  height: 225px;
+  height: 20vw;
   padding: 2%;
   margin-right: 10px;
   border-radius: 5px;
