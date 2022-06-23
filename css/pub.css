@@ -13,16 +13,3 @@
   background-size: cover;
   position: relative;
 }
-
-#main-content p{
-  padding: 5px 0;
-}
-
-#main-content a{
-  color: #000;
-  text-decoration: underline;
-}
-
-#main-content a:hover {
-  color: #FF7777;
-}

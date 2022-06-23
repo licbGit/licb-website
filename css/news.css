@@ -15,9 +15,10 @@
 }
 
 .news-block {
-  text-align: center;
-  padding: 0 10%;
-  margin: 0 0 4%;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 2vw;
+  margin: 2vw 0;
 }
 
 .news-header {
