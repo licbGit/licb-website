@@ -122,3 +122,9 @@ h3, .sec-sub-header {
 #main-content a:hover {
   color: #FF7777;
 }
+
+.creator {
+  font-family: 'The Nautigal', cursive;
+  text-align: center;
+  font-size: 1.3rem;
+}
