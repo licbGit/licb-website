@@ -59,3 +59,13 @@
 .icons {
   width: 35%;
 }
+
+.labSnap {
+  box-shadow: 0 4px 8px 0 rgba(0,1,0,1);
+  border: 20px solid #F7F6F2;
+  border-radius: 2%;
+  display: block;
+  margin: 1% auto 2%;
+  width: 100%;
+
+}
