@@ -13,3 +13,17 @@
   background-size: cover;
   position: relative;
 }
+
+.highlights {
+  box-shadow: 0 4px 8px 0 rgba(0,0.5,0,0.5);
+  background-color: #ffcb31;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  margin: 5px auto;
+}
+
+#main-content a:hover {
+  opacity: 50%;
+  color: #000;
+}
