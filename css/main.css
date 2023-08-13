@@ -125,6 +125,7 @@ h3, .sec-sub-header {
 
 .creator {
   font-family: 'Play', sans-serif;
+  margin: 9px;
   text-align: center;
   font-size: 1.1rem;
 }
